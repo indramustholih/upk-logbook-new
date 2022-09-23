@@ -1,0 +1,241 @@
+/* leafet */
+#mapid {
+    height: 59vh;
+}
+
+.checkbox-menu li label {
+    display: block;
+    padding: 3px 10px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    margin: 0;
+    transition: background-color 0.4s ease;
+}
+
+.checkbox-menu li input {
+    margin: 0px 5px;
+    top: 2px;
+    position: relative;
+}
+
+.checkbox-menu li.active label {
+    background-color: #cbcbff;
+    font-weight: bold;
+}
+
+.checkbox-menu li label:hover,
+.checkbox-menu li label:focus {
+    background-color: #f5f5f5;
+}
+
+.checkbox-menu li.active label:hover,
+.checkbox-menu li.active label:focus {
+    background-color: #b8b8ff;
+}
+/* button */
+div.dt-buttons {
+    float: right;
+    margin-left: 10px;
+    margin-right: 60px;
+    /* padding-left: 20px; */
+}
+
+div.dataTables_filter {
+    float: right;
+    margin-right: 0px;
+    /* padding-left: 20px; */
+}
+
+/* dropdown */
+.custom_kinerja_filter_class {
+    float: left !important;
+    text-align: left !important;
+    width: 100%;
+}
+
+.custom_pelaporan_filter_class {
+    float: left !important;
+    text-align: left !important;
+    width: 80%;
+}
+
+#add-dropdown {
+    display: inline-block;
+    margin-right: 30px;
+    float: left;
+    width: 50%;
+}
+
+#add-pelaporan-opd {
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+    width: 30%;
+}
+
+#add-pelaporan-jalur {
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+    width: 17%;
+}
+
+#add-opd {
+    display: inline-block;
+    margin-right: 15px;
+    float: left;
+    width: 30%;
+}
+
+#add-tahun {
+    display: inline-block;
+    margin-right: 15px;
+    float: left;
+    width: 4%;
+}
+
+.btn-tampil {
+    display: inline-block;
+    margin-right: 10px;
+    float: left;
+}
+
+#label-gap {
+    margin-top: 3px;
+    display: inline-block;
+    margin-right: 5px;
+    float: left;
+}
+
+#label-pelaporan-opd {
+    margin-top: 3px;
+    display: inline-block;
+    margin-right: 5px;
+    float: left;
+}
+
+#label-pelaporan-jalur {
+    margin-top: 3px;
+    display: inline-block;
+    margin-right: 5px;
+    float: left;
+}
+
+#label-opd {
+    margin-top: 3px;
+    display: inline-block;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+#label-tahun {
+    margin-top: 3px;
+    display: inline-block;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+/* keterangan-maping */
+#keterangan-maping {
+    border: 0;
+    padding-bottom: 30px;
+}
+
+#keterangan-maping td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+#keterangan-maping td:first-child {
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.table-manajerial tfoot {
+    display: table-header-group;
+}
+
+/* style file input drag and drop */
+.files #import {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset 0.15s ease-in-out,
+        background-color 0.15s linear;
+    transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+    padding: 3%;
+    text-align: center ;
+    margin: auto;
+    width: 100% ;
+}
+
+.files #import:focus {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset 0.15s ease-in-out,
+        background-color 0.15s linear;
+    transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+    border: 1px solid #92b0b3;
+}
+
+#import {
+    position: relative;
+    padding-top: 100%;
+    text-align-last: center;
+    margin: auto;
+}
+
+.color #import {
+    background-color: #f1f1f1;
+}
+
+/* .files:before {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    content: " Choose or drag it here. ";
+    display: block;
+    color: #2ea591;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+} */
+
+::-webkit-file-upload-button {
+    display: none;
+}
+
+/* Style Modal Spinner */
+.loader {
+    position: relative;
+    text-align: center;
+    margin: 15px auto 35px auto;
+    z-index: 9999;
+    display: block;
+    width: 80px;
+    height: 80px;
+    border: 10px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    border-top-color: #000;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
